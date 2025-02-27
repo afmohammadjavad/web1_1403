@@ -1,3 +1,41 @@
+body {
+    background: gray;
+    margin: 0;
+}
+
+/* End body */
+/* ---------------------------------------------- */
+
+.layout {
+    background: skyblue;
+    height: 500px;
+    align-content: center;
+}
+
+/* End layout */
+/* ---------------------------------------------- */
+
+.content {
+    background: green;
+    width: 700px;
+    /* height: 200px; */
+    margin: auto;
+    text-align: center;
+    /* padding-left: 350px; */
+    /* height: 400px; */
+    /* margin-block: auto; */
+}
+
+.content2 {
+    background: green;
+    width: 400px;
+}
+
 .title {
     color: red;
+    margin-top: 0;
+}
+
+.image {
+    width: 200px;
 }
