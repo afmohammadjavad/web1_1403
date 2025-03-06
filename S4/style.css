@@ -1,0 +1,19 @@
+body {
+    /* margin: 0; */
+}
+
+.parent {
+    background: skyblue;
+    width: 800px;
+    height: 800px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.child {
+    width: 100px;
+    height: 100px;
+    background: gold;
+}
