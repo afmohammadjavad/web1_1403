@@ -1,0 +1,9 @@
+body {
+    margin: 0;
+}
+
+.layout {
+    background: skyblue;
+    height: 50vh;
+    width: 50vw;
+}

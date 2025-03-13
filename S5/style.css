@@ -16,3 +16,11 @@
 .post-username {
     font-weight: bold;
 }
+
+/* --------------------------------------------------------- */
+
+.item {
+    background: skyblue;
+    height: 50px;
+    width: 50%;
+}
