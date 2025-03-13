@@ -6,3 +6,13 @@
 .line2 {
     border: 2px solid red;
 }
+
+/* --------------------------------------------------------- */
+
+.post-image {
+    float: left;
+}
+
+.post-username {
+    font-weight: bold;
+}
