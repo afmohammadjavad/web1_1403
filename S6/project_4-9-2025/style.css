@@ -4,7 +4,7 @@ html {
 
 body {
     /* margin: 50px; */
-    background: green;
+    /* background: green; */
 }
 
 * {
@@ -14,7 +14,7 @@ body {
 }
 
 .layout {
-    background: dodgerblue;
+    /* background: dodgerblue; */
     min-height: 100vh;
 }
 
@@ -44,8 +44,23 @@ body {
 a {
     color: white;
     text-decoration: none;
-    
+    transition: all 300ms ease-in-out;
     /* font-size: small; */
+}
+
+a:hover {
+    color: red;
+    /* font-size: 24px; */
+    scale: 1.5;
+}
+
+a:active {
+    scale: 0.9;
+}
+
+a::after,
+a::before {
+    content: "*"
 }
 
 /* ---------------------------------------------------------- */
@@ -53,7 +68,7 @@ a {
 
 .main {
     /* height: 240px; */
-    background: rgb(32, 170, 159);
+    /* background: rgb(32, 170, 159); */
     /* padding-top: 50px; */
 }
 
@@ -64,7 +79,7 @@ section h2 {
 }
 
 .section {
-    background: tomato;
+    /* background: tomato; */
     margin-block: 50px;
 }
 
