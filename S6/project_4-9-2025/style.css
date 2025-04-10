@@ -1,0 +1,88 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    /* margin: 50px; */
+    background: green;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.layout {
+    background: dodgerblue;
+    min-height: 100vh;
+}
+
+/* ---------------------------------------------------------- */
+/* 
+.btn {
+    width: 100px;
+    padding: 10px;
+} */
+/* ---------------------------------------------------------- */
+
+.navbar,
+.footer {
+    background: rgb(44, 42, 42);
+    height: 80px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+    gap: 50px;
+    padding-left: 50px;
+    
+    /* gap: 10px; */
+    /* padding-left: 20px; */
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    
+    /* font-size: small; */
+}
+
+/* ---------------------------------------------------------- */
+
+
+.main {
+    /* height: 240px; */
+    background: rgb(32, 170, 159);
+    /* padding-top: 50px; */
+}
+
+section h1,
+section h2 {
+    text-align: center;
+    margin-block: 10px;
+}
+
+.section {
+    background: tomato;
+    margin-block: 50px;
+}
+
+.about {
+    padding-inline: 20px;
+}
+
+.courses {
+    padding-inline: 100px;
+}
+/* 
+.about h2 {
+    text-align: center;
+} */
+
+/* ---------------------------------------------------------- */
+
+/* .footer {
+    background: rgb(152, 104, 104);
+    height: 80px;
+} */
