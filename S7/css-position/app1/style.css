@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 200vh;
+}
+
+.boxes {
+    margin: 50px;
+    border: 0.5rem solid gray;
+    /* height: 15rem; */
+    
+    /* وقتی یک المان داخلش میخواهد نسبت به این المان جایگاهش را تنظیم کند*/
+    /* position: relative;  */
+
+    /* height: 20rem; */
+}
+
+.box {
+    height: 5rem;
+    width: 5rem;
+}
+
+.box-one {
+    background: gold;
+    height: 5rem;
+}
+
+.box-two {
+    background: tomato;
+    height: 5rem;
+    position: relative;
+    /* position: absolute; */
+    /* position: fixed; */
+    top: 1rem;
+    left: 2rem;
+    /* left: 1rem; */
+    /* right: 1rem; */
+    /* bottom: 0; */
+    /* z-index: -1; */
+}
+
+.box-three {
+    background: dodgerblue;
+    height: 5rem;
+    /* z-index: 10; */
+}
