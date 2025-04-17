@@ -1,0 +1,27 @@
+/* a {
+    color: dodgerblue;
+} */
+
+/* a[target] {
+    color: dodgerblue;
+} */
+
+/* a[href*="google"] {
+    color: dodgerblue;
+} */
+
+/* a[href^="https"] {
+    color: dodgerblue;
+} */
+
+/* a[href$=".com"] {
+    color: dodgerblue;
+} */
+
+/* a[href^="https"][href$=".com"] {
+    color: dodgerblue;
+} */
+
+.link {
+    color: dodgerblue;
+}

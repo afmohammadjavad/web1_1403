@@ -1,0 +1,28 @@
+ /* article :last-child {
+    color: red;
+ } */
+
+ /* article :first-child {
+    color: red;
+ } */
+
+/* ul li:nth-child(odd) {
+    color: red;
+} */
+ 
+/* ul li:nth-child(2n+5) {
+    color: red;
+} */
+
+/* -------------------------------- */
+
+
+a:visited,
+a:link {
+    color: dodgerblue;
+}
+
+a:hover,
+a:focus {
+    color: deeppink;
+}
