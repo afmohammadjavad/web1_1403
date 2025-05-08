@@ -1,0 +1,34 @@
+/* 
+id
+Class
+element type
+*/
+
+
+/* .hightlight {
+    color: dodgerblue;
+} */
+
+h1 {
+    color: dodgerblue !important;
+}
+
+.hightlight {
+    color: deeppink;
+}
+
+#products {
+    color: green;
+}
+
+.hightlight#products {
+    color: gold;
+}
+h1#products {
+    color: gold;
+}
+
+/* Bad Selector -> make html and css fragile */
+/* html body article#feature h1.hightlight#products {
+
+} */

@@ -1,0 +1,18 @@
+/* #products p {
+    color: orange;
+} */
+
+/* direct child */
+/* #products > p {
+    color: orange;
+} */
+
+/* first sibling */
+/* #products + p {
+    color: orange;
+} */
+
+/* all siblings */
+#products ~ p {
+    color: orange;
+}

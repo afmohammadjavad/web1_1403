@@ -1,0 +1,48 @@
+/* .first-letter {
+    font-size: 140%;
+    font-weight: bold;
+} */
+
+p::first-letter {
+    font-size: 140%;
+    font-weight: bold;
+}
+
+p::first-line {
+    font-weight: bold;
+}
+
+/* P::selection {
+    background: tomato;
+    color: white;
+} */
+
+::selection {
+    background: tomato;
+    color: white;
+}
+
+p::before {
+    content: "***"
+}
+
+p::after {
+    content: "..."
+}
+
+
+
+/* ------------------------------- */
+/* pseudo class */
+/* p:hover {
+    color: red;
+}
+
+p:active {
+    color: dodgerblue;
+} */
+/* ------------------------------- */
+
+.highlight {
+    background: yellow;
+}

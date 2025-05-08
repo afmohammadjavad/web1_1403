@@ -1,0 +1,58 @@
+/* .first {
+    font-size: 140%;
+    font-style: italic;
+} */
+
+/* article :first-child {
+    font-size: 140%;
+    font-style: italic;
+} */
+
+/* article :first-of-type {
+    font-size: 140%;
+    font-style: italic;
+} */
+
+/* article p:first-of-type {
+    font-size: 140%;
+    font-style: italic;
+} */
+
+/* article p:last-child {
+    font-size: 140%;
+    font-style: italic;
+} */
+
+/* article p:last-of-type {
+    font-size: 140%;
+    font-style: italic;
+} */
+
+/* article :last-of-type {
+    font-size: 140%;
+    font-style: italic;
+} */
+
+/* article :last-child {
+    font-size: 140%;
+    font-style: italic;
+} */
+article a:last-of-type {
+    font-size: 140%;
+    font-style: italic;
+}
+
+/* even, odd, formula: ex-> 3n */
+ul li:nth-child(3n) {
+    color: deeppink;
+}
+
+a:visited,
+a:link {
+    color: dodgerblue;
+}
+
+a:hover,
+a:focus {
+    color: deeppink;
+}
