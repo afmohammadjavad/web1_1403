@@ -1,0 +1,24 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ------------------------------------------- */
+
+/* for div */
+/* .box {
+    width: 100px;
+    height: 100px;
+    background: gold;
+} */
+
+/* for span */
+.box {
+    width: 100px;
+    height: 100px;
+    background: gold;
+    display: inline-block;
+}

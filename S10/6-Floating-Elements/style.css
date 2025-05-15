@@ -1,0 +1,31 @@
+.tweet {
+    border: 3px solid gray;
+
+    /* This is for fix issue with float element inside this parent element */
+    /* overflow: auto; */
+    overflow: hidden;
+}
+
+/* .tweet::after {
+    content: '';
+    display: block;
+    clear: left;
+} */
+
+/* .clear2::after {
+    content: '';
+    display: block;
+    clear: left;
+} */
+
+.avatar {
+    width: 5rem;
+    height: 5rem;
+    background: gold;
+    /* float: right; */
+    float: left;
+}
+
+/* .clear {
+    clear: both;
+} */

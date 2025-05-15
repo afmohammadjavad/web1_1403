@@ -1,0 +1,58 @@
+/* 
+1-Absolute:
+px -> we use this in web.
+
+below units are for printing
+pt
+in
+cm
+mm
+---------------------------------
+2- Relative
+%
+vw
+vh
+em
+rem
+*/
+
+/* ----------------------------------------------------------------------- */
+
+*,
+*::before,
+*::after, {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    /* 
+    font-size is 16px from browser 
+    */
+    font-size: 62.5%;
+}
+
+body {
+    margin: 0;
+    /* height: 100vh; */
+}
+
+.box {
+    /* 50% of the width of the parent */
+    /* width: 50%; */
+
+    /* 1em = font size of the current element */
+    /* 10 * font size of the current element */
+    /* width: 10em; */
+    width: 15rem;
+
+    height: 100px;
+    /* height: 100%; */
+    /* height: 100vh; */
+
+    /* width: 100px;
+    height: 100px; */
+    background: gold;
+    border-top: 3px solid orange;
+}
