@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Sites:
+      clip -> https://bennettfeely.com/clippy/
+      filter -> https://developer.mozilla.org/en-US/docs/Web/CSS/filter 
+    -->
+    <style>
+        .image {
+            width: 500px;
+            /* clip-path: polygon(0% 20%, 60% 20%, 60% 0%, 100% 50%, 60% 100%, 60% 80%, 0% 80%); */
+        }
+
+        .image:hover {
+            /* filter: blur(3px); */
+            /* filter: grayscale(70%); */
+            filter: blur(3px) grayscale(70%);
+        }
+    </style>
+</head>
+<body>
+    <img src="../images/cook.jpg" alt="" class="image">
+</body>
+</html>
