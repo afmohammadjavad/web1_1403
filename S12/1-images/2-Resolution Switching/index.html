@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- 
+    different sizes:
+    example:
+      iPhone 8        667 x 375
+      iPhone Pro 11   1024 x 768
+      MaxBook Pro 15  1440 x 900
+  -->
+  <!-- <img src="../images/cook.webp" alt="" class="cook"> -->
+
+  <!-- <img src="../images/cook@1x.webp" alt="" class="cook"> -->
+
+  <!-- High Density -->
+  <!-- <img 
+    src="../images/cook@1x.webp" 
+    alt="" 
+    class="cook"
+    srcset="../images/cook@1x.webp 1x, ../images/cook@2x.webp 2x, ../images/cook@3x.webp 3x"
+  > -->
+
+  <!-- Resolution Switching -->
+   <!-- 
+    website: https://cloudconvert.com/jpg-to-webp
+   -->
+  <img 
+    src="../images/cook@1x.webp" 
+    alt="" 
+    class="cook"
+    srcset="../images/cook@1x.webp 300w, ../images/cook@2x.webp 600w, ../images/cook@3x.webp 900w"
+    sizes="
+     (max-width: 500px) 100vw,
+     (max-width: 700px) 50vw,
+     33vw,
+    "
+  >
+
+</body>
+</html>

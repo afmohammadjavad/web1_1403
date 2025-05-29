@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  background: gray;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background: gold;
+  transition: all 0.2s;
+}
+
+.box:hover {
+  /* transform: rotate(-15deg); */
+  /* transform: scale(1.5); */
+  /* transform: skew(15deg); */
+  /* transform: translateX(20px); */
+  
+  /* --------------------------------- */
+  /* transform: translate(20px, 40px); */
+  /* translate: 20px 40px; */
+
+  /* position: relative;
+  left: 20px;
+  top: 40px */
+  /* --------------------------------- */
+
+  /* transform: rotate(45deg) translateX(50px); */
+  /* transform: translateX(50px) rotate(90deg); */
+
+  /* --------------------------------- */
+  /* 3D Transformations */
+
+  /* transform: perspective(200px) translateZ(50px); */
+  transform: perspective(200px) rotateY(50deg);
+  transform-origin: 0 50%;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- 
+    different sizes:
+    example:
+      iPhone 8        667 x 375
+      iPhone Pro 11   1024 x 768
+      MaxBook Pro 15  1440 x 900
+  -->
+  <!-- <img src="../images/cook.webp" alt="" class="cook"> -->
+
+  <!-- <img src="../images/cook@1x.webp" alt="" class="cook"> -->
+
+  <!-- High Density -->
+  <!-- <img 
+    src="../images/cook@1x.webp" 
+    alt="" 
+    class="cook"
+    srcset="../images/cook@1x.webp 1x, ../images/cook@2x.webp 2x, ../images/cook@3x.webp 3x"
+  > -->
+
+  <!-- Resolution Switching -->
+   <!-- 
+    website: https://responsivebreakpoints.com/
+    website: https://cloudconvert.com/jpg-to-webp
+   -->
+    <picture>
+      <source type="image/webp" srcset="../images/cook@1x.webp 1x, ../images/cook@2x.webp 2x, ../images/cook@3x.webp 3x">
+      <source type="image/jpeg" srcset="../images/cook@1x.jpeg 1x, ../images/cook@2x.jpeg 2x, ../images/cook@3x.jpeg 3x">
+      <img 
+        src="../images/cook@1x.jpg" 
+        alt="..." 
+        class="cook"
+      >
+    </picture>
+
+</body>
+</html>
